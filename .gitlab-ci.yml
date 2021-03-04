@@ -2,8 +2,8 @@ image : microsoft/dotnet:latest
 stages:
   - build
 before_script:
-  - 'dotnet restore .\src\MKasperczyk.Reservation.Api\MKasperczyk.Reservation.Api.csproj'
+  - 'dotnet restore ./src/MKasperczyk.Reservation.Api/MKasperczyk.Reservation.Api.csproj'
 build:
  stage: build
  script:
-  - 'dotnet build .\src\MKasperczyk.Reservation.Api\MKasperczyk.Reservation.Api.csproj'
+  - 'dotnet build ./src/MKasperczyk.Reservation.Api/MKasperczyk.Reservation.Api.csproj'
