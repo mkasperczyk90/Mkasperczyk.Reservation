@@ -9,4 +9,4 @@
     
      steps:
        - checkout
-       - run: dotnet build .\src\MKasperczyk.Reservation.Api\MKasperczyk.Reservation.Api.csproj
+       - run: dotnet build ./src/MKasperczyk.Reservation.Api/MKasperczyk.Reservation.Api.csproj
